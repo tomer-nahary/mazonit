@@ -1,0 +1,16 @@
+POST  http://localhost:4000/api/login
+Content-Type: application/json
+
+{
+    "id" : "213916729",
+    "password" : "jong"
+}
+
+###
+
+post http://localhost:4000/api/getinfo HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjIxMzkxNjcyOSIsIm5hbWUiOiLXqteV157XqCDXoNeU16jXmSIsImlzQWRtaW4iOiJ0cnVlIiwiaWF0IjoxNjAwNDUyODExLCJleHAiOjE2MDA0ODE2MTF9.XvR7RjPJMn2cP8qWYmqUJbYMTJfQSVLEbme-CVrZFtI
+
+{
+    "name" : "tomer"
+}

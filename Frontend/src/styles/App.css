@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+}
+html{
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  direction: rtl;
+  font-family: arial, sans-serif;
+}
+
+
+.display-none{
+  display: none !important;
+}
+
+.logout{
+  background-image: url('../assets/logout.png');
+  height: 25px;
+  width: 25px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  border: none;
+  background-color: unset;
+  margin: 0 10px;
+  outline: none;
+  cursor: pointer;  
+}
+
+.search-btn{
+  outline: none;
+  background-color: unset;
+  background-image: url('../assets/search.png');
+  width: 40px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px; 
+  border: none;
+  cursor: pointer;
+}
